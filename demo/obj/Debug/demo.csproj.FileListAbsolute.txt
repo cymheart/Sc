@@ -50,3 +50,16 @@ D:\我的文档\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Debug\demo.csprojRes
 D:\我的文档\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Debug\demo.Form1.resources
 D:\我的文档\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Debug\demo.Properties.Resources.resources
 D:\我的文档\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Debug\demo.csproj.GenerateResource.Cache
+D:\MyDocuments\GitHub\Sc\demo\bin\Debug\demo.exe.config
+D:\MyDocuments\GitHub\Sc\demo\bin\Debug\demo.exe
+D:\MyDocuments\GitHub\Sc\demo\bin\Debug\demo.pdb
+D:\MyDocuments\GitHub\Sc\demo\bin\Debug\DevComponents.DotNetBar2.xml
+D:\MyDocuments\GitHub\Sc\demo\bin\Debug\Sc.pdb
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.csprojAssemblyReference.cache
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.Form1.resources
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.Properties.Resources.resources
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.csproj.GenerateResource.cache
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.csproj.CoreCompileInputs.cache
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.csproj.CopyComplete
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.exe
+D:\MyDocuments\GitHub\Sc\demo\obj\Debug\demo.pdb
