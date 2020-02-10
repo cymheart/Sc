@@ -69,3 +69,21 @@ D:\MyDocuments\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Release\demo.csproj.C
 D:\MyDocuments\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Release\demo.csproj.CopyComplete
 D:\MyDocuments\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Release\demo.exe
 D:\MyDocuments\Visual Studio 2015\Projects\Sc2\Sc\demo\obj\Release\demo.pdb
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\demo.exe.config
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\demo.exe
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\demo.pdb
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\Sc.dll
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\SharpDX.Direct2D1.dll
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\SharpDX.dll
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\SharpDX.DXGI.dll
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\SharpDX.Mathematics.dll
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\ThoughtWorks.QRCode.dll
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\DevComponents.DotNetBar2.xml
+C:\Users\cym\Documents\GitHub\Sc\demo\bin\Release\Sc.pdb
+C:\Users\cym\Documents\GitHub\Sc\demo\obj\Release\demo.csprojAssemblyReference.cache
+C:\Users\cym\Documents\GitHub\Sc\demo\obj\Release\demo.Form1.resources
+C:\Users\cym\Documents\GitHub\Sc\demo\obj\Release\demo.Properties.Resources.resources
+C:\Users\cym\Documents\GitHub\Sc\demo\obj\Release\demo.csproj.GenerateResource.cache
+C:\Users\cym\Documents\GitHub\Sc\demo\obj\Release\demo.csproj.CopyComplete
+C:\Users\cym\Documents\GitHub\Sc\demo\obj\Release\demo.exe
+C:\Users\cym\Documents\GitHub\Sc\demo\obj\Release\demo.pdb

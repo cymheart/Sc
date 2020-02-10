@@ -55,6 +55,7 @@ namespace Sc
 
             textBox = new ScTextViewBoxEx(scmgr);
             textBox.ForeColor = Color.Black;
+            ForeFont = new D2DFont("微软雅黑", 12, SharpDX.DirectWrite.FontWeight.Regular);
             textBox.TextViewLostFocusEvent += TextBox_TextViewLostFocusEvent;
             Add(textBox);
 

@@ -247,11 +247,11 @@ namespace demo
             checkBox.CheckColor = Color.DarkRed;
             checkBox.Dock = ScDockStyle.Center;
             checkBox.Size = new SizeF(15, 15);
-           
+
             checkBox.SetDrawCheckDirectParentLayer(layer);
             layer.Add(checkBox);
-
             return layer;
+
         }
 
 

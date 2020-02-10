@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sc</RootNamespace>
     <AssemblyName>Sc</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,6 +22,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -30,6 +32,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="SharpDX">
@@ -52,7 +55,6 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="ThoughtWorks.QRCode, Version=1.0.2774.19990, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -131,9 +133,6 @@
     <Compile Include="Sc\Base\Win32.cs" />
     <Compile Include="Sc\ScButton\ScButton.cs" />
     <Compile Include="Sc\ScButton\ScTitleButton.cs" />
-    <Compile Include="Sc\ScChart\ScChartAxis.cs" />
-    <Compile Include="Sc\ScChart\ScChartGridLine.cs" />
-    <Compile Include="Sc\ScChart\ScChartLabel.cs" />
     <Compile Include="Sc\ScCheckBox\ScCheckBox.cs" />
     <Compile Include="Sc\ScCheckBox\ScLabelCheckBox.cs" />
     <Compile Include="Sc\ScContainer\ScScrollArrowBtn.cs" />
