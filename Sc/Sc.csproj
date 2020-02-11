@@ -62,173 +62,101 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PrintUtils\CreatePrinterPreSettingFrm.cs">
+    <Compile Include="Utils\PrintUtils\CreatePrinterPreSettingFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PrintUtils\CreatePrinterPreSettingFrm.Designer.cs">
+    <Compile Include="Utils\PrintUtils\CreatePrinterPreSettingFrm.Designer.cs">
       <DependentUpon>CreatePrinterPreSettingFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PrintUtils\Print.cs" />
-    <Compile Include="PrintUtils\PrinterDefaultSettingOp.cs" />
-    <Compile Include="PrintUtils\PrinterPreSettingOp.cs" />
-    <Compile Include="PrintUtils\PrinterSetFrm.cs">
+    <Compile Include="Utils\PrintUtils\Print.cs" />
+    <Compile Include="Utils\PrintUtils\PrinterDefaultSettingOp.cs" />
+    <Compile Include="Utils\PrintUtils\PrinterPreSettingOp.cs" />
+    <Compile Include="Utils\PrintUtils\PrinterSetFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PrintUtils\PrinterSetFrm.designer.cs">
+    <Compile Include="Utils\PrintUtils\PrinterSetFrm.designer.cs">
       <DependentUpon>PrinterSetFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PrintUtils\PrinterSetting.cs" />
-    <Compile Include="PrintUtils\PrinterSetting\AddPrintModuleFrm.cs">
+    <Compile Include="Utils\PrintUtils\PrinterSetting.cs" />
+    <Compile Include="Utils\PrintUtils\PrinterSetting\AddPrintModuleFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PrintUtils\PrinterSetting\AddPrintModuleFrm.Designer.cs">
+    <Compile Include="Utils\PrintUtils\PrinterSetting\AddPrintModuleFrm.Designer.cs">
       <DependentUpon>AddPrintModuleFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PrintUtils\PrinterSetting\CreatePrinterExSettingFrm.cs">
+    <Compile Include="Utils\PrintUtils\PrinterSetting\CreatePrinterExSettingFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PrintUtils\PrinterSetting\CreatePrinterExSettingFrm.Designer.cs">
+    <Compile Include="Utils\PrintUtils\PrinterSetting\CreatePrinterExSettingFrm.Designer.cs">
       <DependentUpon>CreatePrinterExSettingFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="PrintUtils\PrinterSetting\PrinterDocumentPreSettingOp.cs" />
-    <Compile Include="PrintUtils\PrinterSetting\PrinterExSettingInfoOp.cs" />
-    <Compile Include="PrintUtils\PrinterSetting\PrinterSettingInfoOp.cs" />
-    <Compile Include="PrintUtils\PrinterSetting\PrintModuleInfoOp.cs" />
-    <Compile Include="PrintUtils\PrintPageBase.cs" />
-    <Compile Include="PrintUtils\ReportView.cs">
+    <Compile Include="Utils\PrintUtils\PrinterSetting\PrinterDocumentPreSettingOp.cs" />
+    <Compile Include="Utils\PrintUtils\PrinterSetting\PrinterExSettingInfoOp.cs" />
+    <Compile Include="Utils\PrintUtils\PrinterSetting\PrinterSettingInfoOp.cs" />
+    <Compile Include="Utils\PrintUtils\PrinterSetting\PrintModuleInfoOp.cs" />
+    <Compile Include="Utils\PrintUtils\PrintPageBase.cs" />
+    <Compile Include="Utils\PrintUtils\ReportView.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="PrintUtils\ReportView.Designer.cs">
+    <Compile Include="Utils\PrintUtils\ReportView.Designer.cs">
       <DependentUpon>ReportView.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sc\Animation\AnimationEffect.cs" />
     <Compile Include="Sc\Animation\ScAnimation.cs" />
-    <Compile Include="Sc\Base\ScControlCollection.cs" />
-    <Compile Include="Sc\Base\ScDrawNode.cs" />
-    <Compile Include="Sc\Base\ScGraphics\D2DGraphics.cs" />
-    <Compile Include="Sc\Base\ScGraphics\D2DType.cs" />
-    <Compile Include="Sc\Base\ScGraphics\GDIAntialiasMode.cs" />
-    <Compile Include="Sc\Base\ScGraphics\GDIGraphics.cs" />
-    <Compile Include="Sc\Base\ScGraphics\GDILayer.cs" />
-    <Compile Include="Sc\Base\ScGraphics\GDILayerParameters.cs" />
-    <Compile Include="Sc\Base\ScGraphics\IScGraphics.cs" />
-    <Compile Include="Sc\Base\ScGraphics\ScGraphics.cs" />
-    <Compile Include="Sc\Base\ScLayer.cs" />
-    <Compile Include="Sc\Base\ScLayerControl.cs">
+    <Compile Include="Sc\Core\ScControlCollection.cs" />
+    <Compile Include="Sc\Core\ScDrawNode.cs" />
+    <Compile Include="Sc\Core\ScGraphics\D2DGraphics.cs" />
+    <Compile Include="Sc\Core\ScGraphics\D2DType.cs" />
+    <Compile Include="Sc\Core\ScGraphics\IScGraphics.cs" />
+    <Compile Include="Sc\Core\ScGraphics\ScGraphics.cs" />
+    <Compile Include="Sc\Core\ScLayer.cs" />
+    <Compile Include="Sc\Core\ScLayerControl.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Sc\Base\ScMgr.cs" />
-    <Compile Include="Sc\Base\ScMouseEventArgs.cs" />
-    <Compile Include="Sc\Base\ScObject.cs" />
-    <Compile Include="Sc\Base\ScReDrawTree.cs" />
-    <Compile Include="Sc\Base\ScReDrawTreeGdi.cs" />
-    <Compile Include="Sc\Base\ScType.cs" />
-    <Compile Include="Sc\Base\UpdateLayerFrm.cs">
+    <Compile Include="Sc\Core\ScMgr.cs" />
+    <Compile Include="Sc\Core\ScMouseEventArgs.cs" />
+    <Compile Include="Sc\Core\ScObject.cs" />
+    <Compile Include="Sc\Core\ScReDrawTree.cs" />
+    <Compile Include="Sc\Core\ScType.cs" />
+    <Compile Include="Sc\Core\UpdateLayerFrm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Sc\Base\UpdateLayerFrm.Designer.cs">
+    <Compile Include="Sc\Core\UpdateLayerFrm.Designer.cs">
       <DependentUpon>UpdateLayerFrm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sc\Base\Win32.cs" />
-    <Compile Include="Sc\ScButton\ScButton.cs" />
-    <Compile Include="Sc\ScButton\ScTitleButton.cs" />
-    <Compile Include="Sc\ScCheckBox\ScCheckBox.cs" />
-    <Compile Include="Sc\ScCheckBox\ScLabelCheckBox.cs" />
-    <Compile Include="Sc\ScContainer\ScScrollArrowBtn.cs" />
-    <Compile Include="Sc\ScContainer\ScScrollBar.cs" />
-    <Compile Include="Sc\ScContainer\ScScrollBarBag.cs" />
-    <Compile Include="Sc\ScContainer\ScScrollBarSlider.cs" />
-    <Compile Include="Sc\ScContainer\ScScrollContainer.cs" />
-    <Compile Include="Sc\ScContainer\ScWrapper.cs" />
-    <Compile Include="Sc\ScGridView\ScGridViewCoreContainer.cs" />
-    <Compile Include="Sc\ScGridView\ScGridViewCore.cs" />
-    <Compile Include="Sc\ScGridView\ScGridView.cs" />
-    <Compile Include="Sc\ScLabel\ScLabel.cs" />
-    <Compile Include="Sc\ScLayerLayoutViewer\ScLayerLayoutViewerColumnInfo.cs" />
-    <Compile Include="Sc\ScLayerLayoutViewer\ScLayerLayoutViewerDoubleScreenViewport.cs" />
-    <Compile Include="Sc\ScLayerLayoutViewer\ScLayerLayoutViewerHeaderItem.cs" />
-    <Compile Include="Sc\ScLayerLayoutViewer\ScLayerLayoutViewerHeaderItemContainer.cs" />
-    <Compile Include="Sc\ScLayerLayoutViewer\ScLayerLayoutViewerItem.cs" />
-    <Compile Include="Sc\ScLayerLayoutViewer\ScLayerLayoutViewerScreen.cs" />
-    <Compile Include="Sc\ScLayerLayoutViewer\ScLayerLayoutViewerType.cs" />
-    <Compile Include="Sc\ScListViewEx\ScListViewEx.cs" />
-    <Compile Include="Sc\ScListView\ScListView.cs" />
-    <Compile Include="Sc\ScListView\ScListViewItem.cs" />
-    <Compile Include="Sc\ScListView\ScListViewTable.cs" />
-    <Compile Include="Sc\ScPanel\ScPanel.cs" />
-    <Compile Include="Sc\ScScrollBarEx\ScScrollBarEx.cs" />
-    <Compile Include="Sc\ScScrollBarEx\ScScrollBarSliderEx.cs" />
-    <Compile Include="Sc\ScScrollBarEx\ScScrollBarType.cs" />
-    <Compile Include="Sc\ScShadow\ScShadow.cs" />
-    <Compile Include="Sc\ScSharpControl\ScSharpTab\Controls.cs" />
-    <Compile Include="Sc\ScSharpControl\ScSharpTab\ScSharpTab.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Sc\ScSharpControl\ScSharpTab\ScSharpTab.Designer.cs">
-      <DependentUpon>ScSharpTab.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sc\ScSharpControl\ScSharpTab\ScSharpTabHead.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Sc\ScSharpControl\ScSharpTab\ScSharpTabHead.Designer.cs">
-      <DependentUpon>ScSharpTabHead.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sc\ScSharpControl\ScSharpTab\ScSharpTabPage.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Sc\ScSharpControl\ScSharpTab\ScSharpTabPage.Designer.cs">
-      <DependentUpon>ScSharpTabPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sc\ScSharpControl\ScTabSharp\ScTabSharp.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Sc\ScSharpControl\ScTabSharp\ScTabSharp.Designer.cs">
-      <DependentUpon>ScTabSharp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Sc\ScTabEx\ScTabEx.cs" />
-    <Compile Include="Sc\ScTabEx\ScTabHeaderEx.cs" />
-    <Compile Include="Sc\ScTabEx\ScTabHeaderItem.cs" />
-    <Compile Include="Sc\ScTabEx\ScTabHeaderPevNextBtn.cs" />
-    <Compile Include="Sc\ScTab\ScTab.cs" />
-    <Compile Include="Sc\ScTab\ScTabHead.cs" />
-    <Compile Include="Sc\ScTab\ScTabHeadItem.cs" />
-    <Compile Include="Sc\ScTab\ScTabPreNexBtn.cs" />
-    <Compile Include="Sc\ScTab\SimpleTabType.cs" />
-    <Compile Include="Sc\ScTextBoxEx\ColorDrawingEffect.cs" />
-    <Compile Include="Sc\ScTextBoxEx\ScTextBoxEx.cs" />
-    <Compile Include="Sc\ScTextBoxEx\ScTextRender.cs" />
-    <Compile Include="Sc\ScTextBoxEx\ScTextViewBoxEx.cs" />
-    <Compile Include="Sc\ScTextBoxEx\ScTextViewEx.cs" />
-    <Compile Include="Sc\ScTextBox\GDIHitTestMetrics.cs" />
-    <Compile Include="Sc\ScTextBox\ScTextBox.cs" />
-    <Compile Include="Sc\ScTextBox\ScTextView.cs" />
-    <Compile Include="Sc\ScTextBox\ScTextViewBox.cs" />
-    <Compile Include="Sc\ScVxControls\ScTxtInfo\ScTxtInfo.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxButton2\ScVxButton2.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxButton\ScVxBtnContentLayer.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxButton\ScVxButton.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxDate\ScVxDate.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxDetailBox\ScVxDetailBox.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxImageLoopView\ScVxImageLoopView.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxMainBox\ScVxMainBox.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxMainBox\ScVxMainContentBox.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxPageSelector\ScVxPageBtn.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxPageSelector\ScVxPageSelector.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxPageSelector\ScVxPageSelectorEx.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxPageSelector\ScVxPageSlider.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxPageSelector\ScVxPageTips.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxProgressBar\ScProgressNodeAnim.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxProgressBar\ScVxProgressBar.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxProgressBar\ScVxTipsProgressBar.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxSearch\ScVxSearch.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxSearch\ScVxSearchAndTitle.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxSlider\ScVxSlider.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxSlideScreen\ScVxSlideScreen.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxSlideScreen\ScVxViewScreen.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxSlideTools\ScVxSlideTools.cs" />
-    <Compile Include="Sc\ScVxControls\ScVxTxtInfoPlane\ScVxTxtInfoPlane.cs" />
-    <Compile Include="Sc\ScVxControls\ScWarningInfoBox\ScWarningInfoBox.cs" />
+    <Compile Include="Sc\Core\Win32.cs" />
+    <Compile Include="Sc\Controls\ScButton\ScButton.cs" />
+    <Compile Include="Sc\Controls\ScButton\ScTitleButton.cs" />
+    <Compile Include="Sc\Controls\ScCheckBox\ScCheckBox.cs" />
+    <Compile Include="Sc\Controls\ScCheckBox\ScLabelCheckBox.cs" />
+    <Compile Include="Sc\Controls\ScGridView\ScGridViewCoreContainer.cs" />
+    <Compile Include="Sc\Controls\ScGridView\ScGridViewCore.cs" />
+    <Compile Include="Sc\Controls\ScGridView\ScGridView.cs" />
+    <Compile Include="Sc\Controls\ScLabel\ScLabel.cs" />
+    <Compile Include="Sc\Controls\ScLayerLayoutViewer\ScLayerLayoutViewerColumnInfo.cs" />
+    <Compile Include="Sc\Controls\ScLayerLayoutViewer\ScLayerLayoutViewerDoubleScreenViewport.cs" />
+    <Compile Include="Sc\Controls\ScLayerLayoutViewer\ScLayerLayoutViewerHeaderItem.cs" />
+    <Compile Include="Sc\Controls\ScLayerLayoutViewer\ScLayerLayoutViewerHeaderItemContainer.cs" />
+    <Compile Include="Sc\Controls\ScLayerLayoutViewer\ScLayerLayoutViewerItem.cs" />
+    <Compile Include="Sc\Controls\ScLayerLayoutViewer\ScLayerLayoutViewerScreen.cs" />
+    <Compile Include="Sc\Controls\ScLayerLayoutViewer\ScLayerLayoutViewerType.cs" />
+    <Compile Include="Sc\Controls\ScListView\ScListView.cs" />
+    <Compile Include="Sc\Controls\ScPanel\ScPanel.cs" />
+    <Compile Include="Sc\Controls\ScScrollBar\ScScrollBar.cs" />
+    <Compile Include="Sc\Controls\ScScrollBar\ScScrollBarSlider.cs" />
+    <Compile Include="Sc\Controls\ScScrollBar\ScScrollBarType.cs" />
+    <Compile Include="Sc\Controls\ScShadow\ScShadow.cs" />
+    <Compile Include="Sc\Controls\ScTab\ScTab.cs" />
+    <Compile Include="Sc\Controls\ScTab\ScTabHeader.cs" />
+    <Compile Include="Sc\Controls\ScTab\ScTabHeaderItem.cs" />
+    <Compile Include="Sc\Controls\ScTab\ScTabHeaderPevNextBtn.cs" />
+    <Compile Include="Sc\Controls\ScTab\SimpleTabType.cs" />
+    <Compile Include="Sc\Controls\ScTextBox\ColorDrawingEffect.cs" />
+    <Compile Include="Sc\Controls\ScTextBox\ScTextBox.cs" />
+    <Compile Include="Sc\Controls\ScTextBox\ScTextRender.cs" />
+    <Compile Include="Sc\Controls\ScTextBox\ScTextViewBox.cs" />
+    <Compile Include="Sc\Controls\ScTextBox\ScTextView.cs" />
     <Compile Include="Utils\BarCodeAndQRCode\BarCode\Code128.cs" />
     <Compile Include="Utils\BarCodeAndQRCode\QRCode\QRCode.cs" />
     <Compile Include="Utils\BarCodeAndQRCode\QRCode\QRCodeInfoCapacity.cs" />
@@ -261,35 +189,23 @@
     <Compile Include="Utils\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="PrintUtils\CreatePrinterPreSettingFrm.resx">
+    <EmbeddedResource Include="Utils\PrintUtils\CreatePrinterPreSettingFrm.resx">
       <DependentUpon>CreatePrinterPreSettingFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PrintUtils\PrinterSetFrm.resx">
+    <EmbeddedResource Include="Utils\PrintUtils\PrinterSetFrm.resx">
       <DependentUpon>PrinterSetFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PrintUtils\PrinterSetting\AddPrintModuleFrm.resx">
+    <EmbeddedResource Include="Utils\PrintUtils\PrinterSetting\AddPrintModuleFrm.resx">
       <DependentUpon>AddPrintModuleFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PrintUtils\PrinterSetting\CreatePrinterExSettingFrm.resx">
+    <EmbeddedResource Include="Utils\PrintUtils\PrinterSetting\CreatePrinterExSettingFrm.resx">
       <DependentUpon>CreatePrinterExSettingFrm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PrintUtils\ReportView.resx">
+    <EmbeddedResource Include="Utils\PrintUtils\ReportView.resx">
       <DependentUpon>ReportView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sc\Base\UpdateLayerFrm.resx">
+    <EmbeddedResource Include="Sc\Core\UpdateLayerFrm.resx">
       <DependentUpon>UpdateLayerFrm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sc\ScSharpControl\ScSharpTab\ScSharpTab.resx">
-      <DependentUpon>ScSharpTab.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sc\ScSharpControl\ScSharpTab\ScSharpTabHead.resx">
-      <DependentUpon>ScSharpTabHead.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sc\ScSharpControl\ScSharpTab\ScSharpTabPage.resx">
-      <DependentUpon>ScSharpTabPage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Sc\ScSharpControl\ScTabSharp\ScTabSharp.resx">
-      <DependentUpon>ScTabSharp.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

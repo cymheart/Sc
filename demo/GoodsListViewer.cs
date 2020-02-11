@@ -27,12 +27,12 @@ namespace demo
 
 
         //
-        ScListViewEx listView;
+        ScListView listView;
 
 
         public GoodsListViewer(Control control)
         {
-            scMgr = new ScMgr(control.Width, control.Height, GraphicsType.D2D);
+            scMgr = new ScMgr(control.Width, control.Height);
             scMgr.BackgroundColor = Color.FromArgb(255, 246, 245, 251);
             control.Controls.Add(scMgr.control);
             scMgr.control.Dock = DockStyle.Fill;
@@ -267,7 +267,7 @@ namespace demo
 
         ScLayer CreateItemControlFieldTest3(ScMgr scmgr, ColumnSetting columnSetting)
         {
-            listView = new ScListViewEx(scmgr);
+            listView = new ScListView(scmgr);
             listView.Name = "ListView";
             listView.IsUseShadow = false;
             listView.ShadowRange = 4;
@@ -322,12 +322,12 @@ namespace demo
 
         void DisplayItem3(ScLayer columnItem, int dataRowIdx)
         {
-            ScListViewEx listView;
+            ScListView listView;
 
             if(columnItem.Name == "ListViewPack")
-                listView = (ScListViewEx)(columnItem.controls[1]);
+                listView = (ScListView)(columnItem.controls[1]);
             else
-                listView = (ScListViewEx)(columnItem);
+                listView = (ScListView)(columnItem);
 
             listView.ResetDataRowCount(testDatalistFront.Count());
 

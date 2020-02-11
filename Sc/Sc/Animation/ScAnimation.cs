@@ -1,7 +1,7 @@
 ﻿//----------------------------------------------------------------------------
-// Simple Control (Sc) - Version 1.0
+// Simple Control (Sc) - Version 1.1
 // A high quality control rendering engine for C#
-// Copyright (C) 2016-2017 cymheart
+// Copyright (C) 2016-2020 cymheart
 // Contact: 
 //
 // 
