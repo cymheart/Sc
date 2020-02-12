@@ -15,4 +15,3 @@ C:\Users\cym\Documents\GitHub\Sc\Sc\bin\Debug\ThoughtWorks.QRCode.dll
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Debug\Sc.csproj.CopyComplete
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Debug\Sc.dll
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Debug\Sc.pdb
-C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Debug\Sc.csprojAssemblyReference.cache

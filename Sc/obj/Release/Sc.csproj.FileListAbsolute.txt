@@ -11,11 +11,8 @@ C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\PrintUtils.AddPrintModuleFrm.res
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\PrintUtils.CreatePrinterExSettingFrm.resources
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\PrintUtils.ReportView.resources
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.UpdateLayerFrm.resources
-C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.ScSharpTab.resources
-C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.ScSharpTabHead.resources
-C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.ScSharpTabPage.resources
-C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.ScTabSharp.resources
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.csproj.GenerateResource.cache
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.csproj.CopyComplete
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.dll
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.pdb
+C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\Demo2.exe.config
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\Demo2.exe
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\Demo2.pdb
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\Sc.dll
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\SharpDX.Direct2D1.dll
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\SharpDX.dll
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\SharpDX.DXGI.dll
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\SharpDX.Mathematics.dll
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\ThoughtWorks.QRCode.dll
+C:\Users\cym\Documents\GitHub\Sc\Demo2\bin\Release\Sc.pdb
+C:\Users\cym\Documents\GitHub\Sc\Demo2\obj\Release\Demo2.csprojAssemblyReference.cache
+C:\Users\cym\Documents\GitHub\Sc\Demo2\obj\Release\Demo2.Form1.resources
+C:\Users\cym\Documents\GitHub\Sc\Demo2\obj\Release\Demo2.Properties.Resources.resources
+C:\Users\cym\Documents\GitHub\Sc\Demo2\obj\Release\Demo2.csproj.GenerateResource.cache
+C:\Users\cym\Documents\GitHub\Sc\Demo2\obj\Release\Demo2.csproj.CopyComplete
+C:\Users\cym\Documents\GitHub\Sc\Demo2\obj\Release\Demo2.exe
+C:\Users\cym\Documents\GitHub\Sc\Demo2\obj\Release\Demo2.pdb

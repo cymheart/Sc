@@ -26,18 +26,18 @@ namespace Demo2
         {
             //////////////////////////////////////////
             //透明无边框窗口测试代码，测试时打开下面的注释
-            scMgr = new ScMgr(null, true);
-            scMgr.BackgroundColor = Color.FromArgb(100, 0, 0, 251);
-            app = new App(scMgr);
-            scMgr.ReBulid();
-            scMgr.Show();
+            //scMgr = new ScMgr(null, true);
+            //scMgr.BackgroundColor = Color.FromArgb(100, 0, 0, 251);
+            //app = new App(scMgr);
+            //scMgr.ReBulid();
+            //scMgr.Show();
 
             ////////////////////////////////////
             //常规窗口测试代码，测试时打开下面的注释
-            //scMgr = new ScMgr(panel);
-            //scMgr.BackgroundColor = Color.FromArgb(255, 246, 245, 251);
-            //app = new App(scMgr);
-            //scMgr.ReBulid();
+            scMgr = new ScMgr(panel);
+            scMgr.BackgroundColor = Color.FromArgb(255, 246, 245, 251);
+            app = new App(scMgr);
+            scMgr.ReBulid();
         }
 
 

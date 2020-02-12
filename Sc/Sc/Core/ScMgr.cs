@@ -461,6 +461,9 @@ namespace Sc
         {
             Rectangle rect;
 
+            if (rootScLayer == null)
+                return;
+
             if (refreshArea == Rectangle.Empty)
             {
                 rect = new Rectangle(
