@@ -689,6 +689,27 @@ namespace Sc
             }
         }
 
+        private void Control_MouseWheel(object sender, MouseEventArgs e)
+        {
+            if (mouseMoveScControlList == null)
+                return;
+
+            PointF ptf;
+            PointF scMouseLocation;
+            ScMouseEventArgs mouseEventArgs;
+
+            foreach (ScLayer control in mouseMoveScControlList)
+            {
+                if (control.Visible == false)
+                    continue;
+
+                Point pt = new Point((int)(e.Location.X * sizeScale.Width), (int)(e.Location.Y * sizeScale.Height));
+                ptf = control.TransGlobalToLocal(pt);
+                scMouseLocation = new PointF(ptf.X, ptf.Y);
+                mouseEventArgs = new ScMouseEventArgs(e.Button, scMouseLocation, e.Delta);
+                control.ScMouseWheel(mouseEventArgs);
+            }
+        }
 
         private void Control_MouseMove(object sender, MouseEventArgs e)
         {  
@@ -705,6 +726,8 @@ namespace Sc
             ScMouseEnter(e);
             ScMouseMove(e);
         }
+
+       
 
 
         void CheckScControlMouseMove(Point mouseLocation)
@@ -877,6 +900,7 @@ namespace Sc
             control.MouseLeave += Control_MouseLeave;
             control.MouseUp += Control_MouseUp;
             control.MouseMove += Control_MouseMove;
+            control.MouseWheel += Control_MouseWheel;
 
             control.MouseDoubleClick += Control_MouseDoubleClick;
 
@@ -904,6 +928,8 @@ namespace Sc
                 rootScLayer.MouseMove += RootScLayer_MouseMove;
             }
         }
+
+       
 
         public void Dispose()
         {

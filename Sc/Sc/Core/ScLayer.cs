@@ -1623,6 +1623,14 @@ namespace Sc
             MouseUp(this, mouseEventArgs);
         }
 
+        public void ScMouseWheel(ScMouseEventArgs mouseEventArgs)
+        {
+            if (MouseWheel == null || Enable == false || dispose == true)
+                return;
+
+            MouseWheel(this, mouseEventArgs);
+        }
+
         public void ScMouseDoubleClick(ScMouseEventArgs mouseEventArgs)
         {
             if (MouseDoubleClick == null || Enable == false || dispose == true)
@@ -1774,6 +1782,8 @@ namespace Sc
         // 摘要:
         //     在鼠标指针在控件上并释放鼠标键时发生。
         public event ScMouseEventHandler MouseUp;
+
+        public event ScMouseEventHandler MouseWheel;
 
         public event ScKeyEventHandler KeyDown;
         public event ScKeyEventHandler KeyUp;

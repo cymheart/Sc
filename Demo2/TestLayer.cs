@@ -16,7 +16,7 @@ namespace Demo2
         {
             SizeChanged += ScPanel_SizeChanged;
             D2DPaint += ScPanel_D2DPaint;
-            MouseMove += TestLayer_MouseMove;
+            MouseMove += TestLayer_MouseMove;     
         }
 
         private void TestLayer_MouseMove(object sender, ScMouseEventArgs e)
