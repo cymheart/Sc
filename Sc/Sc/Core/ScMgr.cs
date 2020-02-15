@@ -83,9 +83,7 @@ namespace Sc
    
 
         public ScMgr(Control stdControl, bool isUsedUpdateLayerFrm = false)
-        {
-            
-
+        {    
             if (isUsedUpdateLayerFrm)
             {
                 if (stdControl == null)

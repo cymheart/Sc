@@ -15,3 +15,4 @@ C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.csproj.GenerateResource.cache
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.csproj.CopyComplete
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.dll
 C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.pdb
+C:\Users\cym\Documents\GitHub\Sc\Sc\obj\Release\Sc.csprojAssemblyReference.cache

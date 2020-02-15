@@ -10,13 +10,23 @@ namespace Demo2
 {
     public class TestLayer : ScLayer
     {
+        ScShadow shadow;
         PointF mousePos;
         public TestLayer(ScMgr scmgr = null)
             : base(scmgr)
         {
+            //设置层的阴影
+            shadow = new ScShadow(scmgr);
+            shadow.CornersRadius = 4;
+            shadow.ShadowRadius = 15;       
+            shadow.ShadowColor =  Color.Black;
+            ShadowLayer = shadow;
+
+
             SizeChanged += ScPanel_SizeChanged;
             D2DPaint += ScPanel_D2DPaint;
             MouseMove += TestLayer_MouseMove;     
+
         }
 
         private void TestLayer_MouseMove(object sender, ScMouseEventArgs e)
@@ -27,7 +37,13 @@ namespace Demo2
 
         private void ScPanel_SizeChanged(object sender, SizeF oldSize)
         {
-           
+            //设置阴影层的尺寸
+            shadow.DirectionRect = new RectangleF(
+                       DirectionRect.X - shadow.ShadowRadius,
+                       DirectionRect.Y - shadow.ShadowRadius,
+                       DirectionRect.Width + shadow.ShadowRadius * 2,
+                       DirectionRect.Height + shadow.ShadowRadius * 2);
+
         }
 
         void DrawParamInfo(D2DGraphics g, TextFormat textFormat)

@@ -17,9 +17,12 @@ namespace Demo2
 
             TestLayer testLayer = new TestLayer(scMgr);
             testLayer.Name = "layer1";
-            testLayer.Dock = ScDockStyle.Fill;
-           // testLayer.BackgroundColor = Color.FromArgb(100, 255,0,255);
-            root.Add(testLayer);
+            testLayer.Location = new PointF(100, 100);
+              testLayer.Width = 300;
+              testLayer.Height = 300;
+            //testLayer.Dock = ScDockStyle.Fill;
+             testLayer.BackgroundColor = Color.FromArgb(255, 255,0,255);
+             root.Add(testLayer);
 
 
             //  testLayer = new TestLayer(scMgr);
